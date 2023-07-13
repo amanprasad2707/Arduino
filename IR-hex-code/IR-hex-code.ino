@@ -1,14 +1,16 @@
-#include <IRremoteESP8266.h>
+// #include <IRremoteESP8266.h>
 #include <IRrecv.h>
 
-IRrecv irrecv(2);
+IRrecv irrecv(14);      //D5
 decode_results results;
-const int ledPin = 14;
+const int led1 = D2;
+const int led2 = D3;
 void setup() {
   // put your setup code here, to run once:
   irrecv.enableIRIn();
-  pinMode(ledPin,OUTPUT);
-  Serial.begin(115200);
+  pinMode(led1,OUTPUT);
+  pinMode(led2,OUTPUT);
+  Serial.begin(9600);
 
 }
 
@@ -17,11 +19,16 @@ void loop() {
   if(irrecv.decode(&results)){
     Serial.println(results.value,HEX);
     if(results.value == 0xFFC03F){
-      digitalWrite(ledPin,HIGH);
+      digitalWrite(led1,HIGH);
     }
     else if(results.value == 0xFF906F){
-      digitalWrite(ledPin,LOW);
+      digitalWrite(led1,LOW);
     }
+    if(results.value == 0xFFB04F){
+      digitalWrite(led2,HIGH);
+    }
+    else if(results.value == 0xFFD827)
+    digitalWrite(led2,LOW);
     delay(1000);
     irrecv.resume();
     
