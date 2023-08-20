@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3tzu_Qj7f"
-#define BLYNK_TEMPLATE_NAME "Temperature and humidity"
-#define BLYNK_AUTH_TOKEN "041owLL371Ekpw9CxAfaKFp-DAzDyOFK"
+#define BLYNK_TEMPLATE_ID "TMPL3XNLZ-v0U"
+#define BLYNK_TEMPLATE_NAME "DHT"
+#define BLYNK_AUTH_TOKEN "vYVazvohOyu1vpMlfysNAzyAkMkrvahu"
 
 #define BLYNK_PRINT Serial
  
@@ -15,10 +15,10 @@ char auth[] = BLYNK_AUTH_TOKEN;
  
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "VIRUS";
-char pass[] = "12345678";
+char ssid[] = "Aryan kakran";
+char pass[] = " 1234567890";
  
-#define DHTPIN 0          // D3
+#define DHTPIN 2          // D4
  
 // Uncomment whatever type you're using!
 #define DHTTYPE DHT11     // DHT 11

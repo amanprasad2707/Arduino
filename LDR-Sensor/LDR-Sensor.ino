@@ -1,14 +1,11 @@
 #include <SoftwareSerial.h>
-
 int sensorPin = A0; // select the input pin for the LDR
-
 int sensorValue = 0; // variable to store the value coming from the sensor
 
-int led = 3;
-
+int led = 13;
 void setup() { // declare the ledPin as an OUTPUT:
 
-pinMode(led, OUTPUT);
+pinMode(led, LOW);
 
 Serial.begin(9600); }
 
@@ -22,7 +19,7 @@ sensorValue = analogRead(sensorPin);
 
 Serial.println(sensorValue);
 
-if (sensorValue < 100)
+if (sensorValue < 50)
 
 {
 

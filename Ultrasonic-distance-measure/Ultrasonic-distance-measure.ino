@@ -1,5 +1,5 @@
-const int trigPin = D5; 
-const int echoPin = D6; 
+const int trigPin = 5; 
+const int echoPin = 6; 
 
 long duration;
 int distance;
