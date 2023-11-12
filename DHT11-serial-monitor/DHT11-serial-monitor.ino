@@ -25,12 +25,13 @@ void loop() {
 
   Serial.print("Humidity: ");
   Serial.print(h);
+  Serial.print(" ");
 
   Serial.print("Temperature: ");
   Serial.print(t);
-  Serial.print("°C");
+  Serial.print("°C ");
 
   Serial.print("Temperature: ");
   Serial.print(f);
-  Serial.println("°F");
+  Serial.println("°F ");
 }

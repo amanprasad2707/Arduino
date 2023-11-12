@@ -6,16 +6,16 @@ long interval = 1000;
 byte on = 0;
 int i = 5;
 
-int segA = D0;
-int segB = D1;
-int segC = D2;
-int segD = D3;
-int segE = D4;
-int segF = D5;
-int segG = D6;
+int segA = 16;
+int segB = 5;
+int segC = 4;
+int segD = 0;
+int segE = 2;
+int segF = 14;
+int segG = 12;
 
-int digit1 = D7;
-int digit2 = D8; 
+int digit1 = 13;
+int digit2 = 15; 
 int digit3 = 3; // RX
 int digit4 = 1; // TX
 int dot = 9; // SD2

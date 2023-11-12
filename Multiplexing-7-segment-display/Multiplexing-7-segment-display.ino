@@ -1,14 +1,14 @@
-int x = 27;
+int x = 26;
 int var1, var2;
-int segA = D0;
-int segB = D1;
-int segC = D2;
-int segD = D3;
-int segE = D4;
-int segF = D5;
-int segG = D6;
-int digit1 = 1; // TX
-int digit2 = 3; // Rx
+int segA = 16;
+int segB = 5;
+int segC = 4;
+int segD = 0;
+int segE = 14;
+int segF = 12;
+int segG = 13;
+int digit1 = 10;
+int digit2 = 9; 
 
 void setup() {
   pinMode(segA, OUTPUT);

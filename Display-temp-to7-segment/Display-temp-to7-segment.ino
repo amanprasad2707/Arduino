@@ -3,19 +3,19 @@ int i = 2150;
 
 #include "DHT.h"
 #define DHTTYPE DHT11
-#define DHTPIN 1
+#define DHTPIN 1    // TX
 DHT dht(DHTPIN,DHTTYPE);
 
-int segA = D0;
-int segB = D1;
-int segC = D2;
-int segD = D3;
-int segE = D4;
-int segF = D5;
-int segG = D6;
+int segA = 16;
+int segB = 5;
+int segC = 4;
+int segD = 0;
+int segE = 2;
+int segF = 14;
+int segG = 12;
 
-int digit1 = D7;
-int digit2 = D8; 
+int digit1 = 13;
+int digit2 = 15; 
 
 void setup() {
   pinMode(segA, OUTPUT);
@@ -28,7 +28,7 @@ void setup() {
   pinMode(digit1, OUTPUT);
   pinMode(digit2, OUTPUT);
   Serial.begin(9600);
-  Serial.println("start");
+  Serial.println("DHT11");
   dht.begin();
 }
 
