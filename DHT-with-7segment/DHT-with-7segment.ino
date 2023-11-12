@@ -2,7 +2,6 @@
 #define DHTTYPE DHT11
 #define DHTPIN 3 // GPIO 2 == D4
 DHT dht(DHTPIN,DHTTYPE);
-int x;
 int var1, var2;
 int segA = 16;
 int segB = 5;
