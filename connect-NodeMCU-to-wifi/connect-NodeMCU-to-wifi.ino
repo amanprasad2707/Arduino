@@ -3,7 +3,7 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  WiFi.begin("MALWARE","11111111");
+  WiFi.begin("VIRUS","VIRUS123");
   while(WiFi.status() != WL_CONNECTED)
   {
     Serial.print("..");

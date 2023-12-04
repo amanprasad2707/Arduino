@@ -15,8 +15,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
  
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Aryan kakran";
-char pass[] = " 1234567890";
+char ssid[] = "Block-G";
+char pass[] = " Rise@123";
  
 #define DHTPIN 2          // D4
  
