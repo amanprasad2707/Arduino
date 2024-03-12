@@ -439,11 +439,11 @@
 
 // ===== ACCESS POINT ===== //
 #ifndef AP_SSID
-  #define AP_SSID "pwned"
+  #define AP_SSID "virus.exe"
 #endif /* ifndef AP_SSID */
 
 #ifndef AP_PASSWD
-  #define AP_PASSWD "deauther"
+  #define AP_PASSWD "virus.exe"
 #endif /* ifndef AP_PASSWD */
 
 #ifndef AP_HIDDEN
