@@ -1,18 +1,10 @@
-/*New Blynk app with Home Automation
-   Home Page
-*/
-
-//Include the library files
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-
+#define BLYNK_AUTH_TOKEN "U2dTYrtj_tSrGP2syFjTOWUrNqP1VI3V"
 //Define the relay pins
 #define relay1 D0
 #define relay2 D1
-
-#define BLYNK_AUTH_TOKEN "U2dTYrtj_tSrGP2syFjTOWUrNqP1VI3V" //Enter your blynk auth token
-
 char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "Block-G";//Enter your WIFI name
 char pass[] = "Rise@2023";//Enter your WIFI password
