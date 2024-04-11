@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3xoOrdgHJ"
+#define BLYNK_TEMPLATE_ID "TMPL3EI8BL9yJ"
 #define BLYNK_TEMPLATE_NAME "Pulse"
-#define BLYNK_AUTH_TOKEN "M-B6FKGiq-BhYAJ5CDcDTvsenKSEOjBx"
+#define BLYNK_AUTH_TOKEN "gtIAGWnI2_GEa-QAwjTZRvs7xP1fZCld"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -20,8 +20,8 @@ int bpm; // the heart rate in beats per minute
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "MALWARE";
-char pass[] = "11111111";
+char ssid[] = "VIRUS";
+char pass[] = "VIRUS123";
 BlynkTimer timer;
 
 void setup()
@@ -72,7 +72,7 @@ void loop()
     Serial.println(" BPM");
 
     // Send the heart rate to Blynk
-    Blynk.virtualWrite(V0, bpm);
+    Blynk.virtualWrite(V1, bpm);
     delay(200);
 
     // Print the heart rate on the serial monitor
