@@ -1,0 +1,122 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "HTTPClient.h",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\HTTPClient\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFiClientSecure\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "ArduinoJson.h",
+    "Includepath": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\ArduinoJson\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\LiquidCrystal_I2C"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\GET_blynk_cloud_data_in_LCD_with_status\\build\\sketch\\GET_blynk_cloud_data_in_LCD_with_status.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\HTTPClient\\src\\HTTPClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFiClientSecure\\src\\WiFiClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFiClientSecure\\src\\esp_crt_bundle.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFiClientSecure\\src\\ssl_client.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\LiquidCrystal_I2C\\LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

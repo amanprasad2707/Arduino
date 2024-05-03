@@ -1,0 +1,127 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\variants\\esp32s3"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\all_sensor_code\\build\\sketch\\all_sensor_code.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\DHT"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\all_sensor_code\\build\\sketch\\all_sensor_code.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\all_sensor_code\\build\\sketch\\all_sensor_code.ino.cpp",
+    "Include": "BlynkSimpleEsp32.h",
+    "Includepath": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src"
+  },
+  {
+    "Sourcefile": "D:\\Arduino\\Smart Gas Monitoring and Alert System\\amanprasad\\all_sensor_code\\build\\sketch\\all_sensor_code.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\DHT\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\DHT\\DHT_U.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Adafruit_Sensor"
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\DHT\\DHT_U.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.14\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\BlynkDebug.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\BlynkHandlers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\BlynkHelpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\BlynkTimeUtils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\BlynkTimer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Blynk\\src\\utility\\utility.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\amanp\\Documents\\Arduino\\libraries\\Adafruit_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
