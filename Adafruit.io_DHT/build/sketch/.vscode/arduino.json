@@ -1,8 +1,0 @@
-#line 1 "C:\\Users\\amanp\\Desktop\\Adafruit.io_DHT\\.vscode\\arduino.json"
-{
-    "configuration": "xtal=80,vt=flash,exception=disabled,stacksmash=disabled,ssl=all,mmu=3232,non32xfer=fast,ResetMethod=nodemcu,eesz=4M2M,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=115200",
-    "board": "esp8266:esp8266:espino",
-    "output": "build",
-    "sketch": "Adafruit.io_DHT.ino",
-    "port": "COM4"
-}
