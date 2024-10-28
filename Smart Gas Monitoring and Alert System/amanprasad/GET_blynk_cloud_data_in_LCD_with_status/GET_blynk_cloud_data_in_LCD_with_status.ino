@@ -1,3 +1,5 @@
+#include <LiquidCrystal_I2C.h>
+
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>

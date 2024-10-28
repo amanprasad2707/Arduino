@@ -2,7 +2,7 @@
 #include <DHT.h>
 #include <ThingSpeak.h>
 
-DHT dht(D5, DHT11);
+DHT dht(2, DHT11);
 
 WiFiClient client;
 
@@ -12,7 +12,7 @@ const char myWriteAPIKey[] = "NNDIZZW7HU5FWMQR";
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  WiFi.begin("VIRUS", "12345678");
+  WiFi.begin("VIRUS", "VIRUS123");
   while(WiFi.status() != WL_CONNECTED)
   {
     delay(200);
@@ -33,5 +33,5 @@ void loop() {
   Serial.println("Humidity: " + (String) h);
   ThingSpeak.writeField(myChannelNumber, 1, t, myWriteAPIKey);
   ThingSpeak.writeField(myChannelNumber, 2, h, myWriteAPIKey);
-  delay(2000);
+  delay(200);
 }

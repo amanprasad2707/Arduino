@@ -3,11 +3,12 @@
 
 IRrecv irrecv(2);
 decode_results results;
-const int ledPin = 14;
+const int ledPin = 4;
 void setup() {
   // put your setup code here, to run once:
   irrecv.enableIRIn();
   pinMode(ledPin,OUTPUT);
+  // Serial.println(results.value, HEX);
   Serial.begin(115200);
 
 }
@@ -22,7 +23,7 @@ void loop() {
     else if(results.value == 0xFF906F){
       digitalWrite(ledPin,LOW);
     }
-    delay(1000);
+    delay(200);
     irrecv.resume();
     
   }
