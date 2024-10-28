@@ -12,7 +12,7 @@
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
 #define AIO_USERNAME    "amanprasad2707"
-#define AIO_KEY         "aio_VkML24u1u6NZcs6XuzSRj59Qatnj"
+#define AIO_KEY         ""
 
 /************************* DS18B20 Setup *************************************/
 #define ONE_WIRE_BUS 2 // Pin connected to DS18B20 data line
