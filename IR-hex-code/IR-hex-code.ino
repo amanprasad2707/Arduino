@@ -1,10 +1,10 @@
 // #include <IRremoteESP8266.h>
 #include <IRrecv.h>
 
-IRrecv irrecv(14);      //D5
+IRrecv irrecv(2);      //D4
 decode_results results;
-const int led1 = D2;
-const int led2 = D3;
+const int led1 = 16;
+const int led2 = 5;
 void setup() {
   // put your setup code here, to run once:
   irrecv.enableIRIn();

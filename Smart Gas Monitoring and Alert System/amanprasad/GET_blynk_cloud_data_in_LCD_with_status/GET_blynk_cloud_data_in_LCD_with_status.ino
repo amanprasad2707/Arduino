@@ -7,10 +7,10 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 20, 4); // set the LCD address to 0x27 for a 16 chars and 2 line display
 
-const char* ssid = "VIRUS";
-const char* password = "VIRUS123";
-const char* serverUrl = "https://blr1.blynk.cloud/external/api/getAll?token=CGCkx8lRfAb50kVnsxPEx1TuXb9HGxks";
-const char* statusUrl = "https://blr1.blynk.cloud/external/api/isHardwareConnected?token=CGCkx8lRfAb50kVnsxPEx1TuXb9HGxks";
+const char* ssid = "Akhlesh";
+const char* password = "12345678";
+const char* serverUrl = "https://blr1.blynk.cloud/external/api/getAll?token=ZBXRpvsQfGBHSpI0XMdhlD7ScLTLup_R";
+const char* statusUrl = "https://blr1.blynk.cloud/external/api/isHardwareConnected?token=ZBXRpvsQfGBHSpI0XMdhlD7ScLTLup_R";
 
 // Variables to store extracted values
 int variable1;
@@ -37,7 +37,8 @@ void setup() {
   }
   Serial.println("Connected to WiFi");
   lcd.setCursor(0, 0);
-  lcd.print("Connected");
+  lcd.print("Connected to ");
+  lcd.print(ssid);
   delay(3000);
   lcd.clear();
 
@@ -61,8 +62,8 @@ void loop() {
 void fetchJsonData() {
   HTTPClient http;
 
-  // Serial.print("Fetching JSON data from: ");
-  // Serial.println(serverUrl);
+  Serial.print("Fetching JSON data from: ");
+  Serial.println(serverUrl);
   // lcd.setCursor(0, 0);
   // lcd.print(" Fetching Data from  Blynk Cloud.....");
   // delay(3000);
@@ -120,10 +121,10 @@ void fetchJsonData() {
       lcd.setCursor(12,0);
       lcd.print("Dis:");
       lcd.print(variable5);
-      lcd.setCursor(18,0);
-      lcd.print("cm");
-      delay(1000);
-      // lcd.clear();
+      if(variable5 < 99){
+        lcd.setCursor(18, 0);
+        lcd.print(" ");
+      }
     } else {
       Serial.printf("HTTP request failed with error code: %d\n", httpCode);
     }
@@ -155,7 +156,7 @@ void isConnected(){
         // display online
         Serial.println("online");
         lcd.setCursor(13,2);
-        lcd.print("ONLINE");
+        lcd.print("ONLINE ");
       }
       // Parse JSON data
       DynamicJsonDocument doc(1024);

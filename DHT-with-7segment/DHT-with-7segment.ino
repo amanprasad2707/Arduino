@@ -1,17 +1,17 @@
 #include "DHT.h"
 #define DHTTYPE DHT11
-#define DHTPIN 3 // GPIO 2 == D4
+#define DHTPIN 9
 DHT dht(DHTPIN,DHTTYPE);
 int var1, var2;
-int segA = 16;
-int segB = 5;
-int segC = 4;
-int segD = 0;
-int segE = 14;
-int segF = 12;
-int segG = 13;
-int digit1 = 2;
-int digit2 = 15;
+int segA = 0;
+int segB = 1;
+int segC = 2;
+int segD = 3;
+int segE = 4;
+int segF = 5;
+int segG = 6;
+int digit1 = 7;
+int digit2 = 8;
 void setup() {
   // put your setup code here, to run once:
   pinMode(segA, OUTPUT);
@@ -79,7 +79,7 @@ void displayNumber(int numbertoDisplay){
       digitalWrite(segB, LOW);
       digitalWrite(segC, LOW);
       digitalWrite(segD, LOW);
-      digitalWrite(segE, LOW);     //Generating 8
+      digitalWrite(segE, LOW);     //Generating 0
       digitalWrite(segF, LOW);
       digitalWrite(segG, HIGH);
       break;

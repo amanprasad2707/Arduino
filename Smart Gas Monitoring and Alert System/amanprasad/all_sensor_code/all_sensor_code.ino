@@ -1,14 +1,14 @@
 #define BLYNK_TEMPLATE_ID "TMPL3RngVD2I_"
 #define BLYNK_TEMPLATE_NAME "Aman Prasad"
-#define BLYNK_AUTH_TOKEN "CGCkx8lRfAb50kVnsxPEx1TuXb9HGxks"
+#define BLYNK_AUTH_TOKEN "ZBXRpvsQfGBHSpI0XMdhlD7ScLTLup_R"
 #define MQ137 34
 #define MQ4 35
-#define MQ7 25
+#define MQ7 32
 #define DHT_PIN 4
 #define DHTTYPE DHT11
 #define BLYNK_PRINT Serial
 
-const int trigPin = 5; 
+const int trigPin = 5;
 const int echoPin = 15;
 
 long duration;
@@ -20,8 +20,8 @@ int distance;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "VIRUS";
-char pass[] = "VIRUS123";
+char ssid[] = "Akhlesh";
+char pass[] = "12345678";
 
 DHT dht(DHT_PIN, DHTTYPE);
 
@@ -74,7 +74,7 @@ distance= duration*0.034/2;
 
 void setup() {
   // Debug console
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an Input
   Blynk.begin(auth, ssid, pass);

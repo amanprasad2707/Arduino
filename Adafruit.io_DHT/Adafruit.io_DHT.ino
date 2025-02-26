@@ -5,8 +5,8 @@
 #include <DallasTemperature.h>
 
 /************************* WiFi Access Point *********************************/
-#define WLAN_SSID       "Block-G"
-#define WLAN_PASS       "Rise@2023"
+#define WLAN_SSID       "VIRUS"
+#define WLAN_PASS       "VIRUS123"
 
 /************************* Adafruit.io Setup *********************************/
 #define AIO_SERVER      "io.adafruit.com"
