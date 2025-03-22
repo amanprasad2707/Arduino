@@ -1,8 +1,0 @@
-#line 1 "D:\\Arduino\\atmega328_DHT_7_segment\\.vscode\\arduino.json"
-{
-    "configuration": "bootloader=uart0,eeprom=keep,baudrate=default,variant=modelP,BOD=2v7,LTO=Os_flto,clock=8MHz_internal",
-    "board": "MiniCore:avr:328",
-    "programmer": "arduinoasisp",
-    "sketch": "atmega328_DHT_7_segment.ino",
-    "output": "output"
-}

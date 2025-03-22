@@ -1,18 +1,20 @@
 #include "DHT.h"
 #define DHTTYPE DHT11
-#define DHTPIN 10
+#define DHTPIN 10  // 16
 DHT dht(DHTPIN, DHTTYPE);
-
+// atmega328 pin
 int var1, var2;
-int segA = 0;
-int segB = 1;
-int segC = 2;
-int segD = 3;
-int segE = 4;
-int segF = 5;
-int segG = 6;
-int digit1 = 7;
-int digit2 = 9;
+int segA = 0;  // 2
+int segB = 1;  // 3
+int segC = 2;  // 4
+int segD = 3;  // 5
+int segE = 4;  // 6
+int segF = 5;  // 11
+int segG = 6;  // 12
+int digit1 = 7;  // 13
+int digit2 = 9;  // 15
+
+int led = 11;  // 17
 
 void setup() {
   // Initialize segment pins as OUTPUT
@@ -25,14 +27,18 @@ void setup() {
   pinMode(segG, OUTPUT);
   pinMode(digit1, OUTPUT);
   pinMode(digit2, OUTPUT);
-
+  pinMode(led, OUTPUT);
   // Initialize DHT sensor
   dht.begin();
 }
 
 void loop() {
   int t = dht.readTemperature(); // Read temperature from DHT11
-
+  if(t > 28){
+    digitalWrite(led, HIGH);
+  }else{
+    digitalWrite(led, LOW);
+  }
   if (isnan(t)) {
     // If DHT11 is not connected, turn on only the G segment (active low)
     digitalWrite(segA, HIGH);
