@@ -1,7 +1,7 @@
 //Parameters
-const int clkPin 	= 2;
-const int dtPin 	= 4;
-const int swPin 	= 7;
+const int clkPin 	= 23;
+const int dtPin 	= 2;
+const int swPin 	= 4;
 //Variables
 int rotVal 	= 0;
 bool clkState 	= LOW;
